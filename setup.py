@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'listener = listener:main',
+            'listener = listener_package.listener:main',
         ],
     },
 )
